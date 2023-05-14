@@ -42,6 +42,46 @@
         color: black;
     }
 
+    /*NEWS*/
+
+    .row-flex {
+      padding-right: 20px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column-flex {
+      width: 33.33%;
+      padding: 0 10px;
+    }
+    
+    .column-flex .new {
+      background-color: #fff;
+      padding: 5%;
+      margin-bottom: 20px;
+    }
+    
+    .column-flex .new h1 {
+      font-size: 19px;
+      font-family: "Noto Serif",serif;
+      line-height: 30px;
+      color: #292933;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    .column-flex .new h2 {
+      font-size: 12px;
+      font-family: "Noto Serif",serif;
+      line-height: 30px;
+      color: #292933;
+      margin-bottom: 10px;
+    }
+
+    /*FOOTER*/
     .footer {
       background-color: #752437;
       padding: 10px;
