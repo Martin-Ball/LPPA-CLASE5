@@ -1,7 +1,18 @@
 .header {
-    background-color: #F1F1F1;
+    background-color: #fff;
     text-align: center;
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header img {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 100px;
+  padding: 5px 10px;
 }
 
 body {
@@ -14,6 +25,8 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
   
   /* Navbar links */
@@ -58,28 +71,12 @@ body {
     clear: both;
     flex-wrap: wrap;
 } 
-  
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media (min-width: 768px) {
-    .column {
-        width: 33.33%;
-    }
-
-    .row {
-        padding-right: 20px;
-        padding-left: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row;
-    }
-}
 
 /*NEWS*/
 .row .column .new {
     background-color: #fff;
-    padding: 5%
+    padding: 5%;
+    flex: 1 1 auto;
 }
 
 .row .column .new h1 {
@@ -106,8 +103,6 @@ body {
     text-align: center;
     padding: 10px;
 }
-
-
 
 
 /* Reset CSS */
